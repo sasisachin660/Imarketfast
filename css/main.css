@@ -169,8 +169,8 @@ h6 {
     }
 }
 .book-item {
-    margin-top: 0px;
-    padding-top: 45px;
+    margin-top: 0px !important;
+    padding-top: 45px !important;
 }
 .header_absolute .header_phone h6 span a i {
     margin-right: 10px;
