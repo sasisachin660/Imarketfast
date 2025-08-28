@@ -168,7 +168,13 @@ h6 {
         font-size: 20px;
     }
 }
-
+.book-item {
+    margin-top: 0px;
+    padding-top: 45px;
+}
+.header_absolute .header_phone h6 span a i {
+    margin-right: 10px;
+}
 @media (max-width: 767px) {
     h1 {
         font-size: 1.8rem;
