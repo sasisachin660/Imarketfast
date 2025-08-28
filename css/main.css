@@ -22953,13 +22953,11 @@ input[type="text"].search-text {
     line-height: 4.3em;
 }
 
-.book-item {
-    margin-top: -45px;
-}
+
 
 @media (max-width: 761px) {
     .book-item {
-        margin-top: 30px;
+        padding-top: 30px;
         overflow: visible !important;
     }
 }
