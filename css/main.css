@@ -163,7 +163,7 @@ html {
     height: 100%;
     width: 0;
 	color:#fff;
-    background: #7d2562;
+    background:#7d2562d4;
     z-index: -1;
     transition: width 0.4s ease;
     border-radius: 25px;
@@ -23527,5 +23527,6 @@ h5 {
     box-shadow: none;
 
 }
+
 
 
