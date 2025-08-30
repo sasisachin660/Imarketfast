@@ -142,7 +142,7 @@ html {
 .ds .sf-menu>li.active>a {
     color: #a52477;
 }
-.header_phone span {
+.header_phone a {
     position: relative;
     color: #fff;
     padding: 10px 32px;
@@ -152,29 +152,31 @@ html {
     overflow: hidden;
     display: inline-block;
     z-index: 1;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.header_phone span::before {
+.header_phone a::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 0;
-	color:#fff;
-    background:#7d2562d4;
+    background: #7d2562d4;
     z-index: -1;
     transition: width 0.4s ease;
     border-radius: 25px;
 }
 
-.header_phone span:hover::before {
+.header_phone a:hover::before {
     width: 100%;
 }
-.header_phone span:hover {
+
+.header_phone a:hover {
     color: #fff;
 }
+
 .header_phone {
     margin-left: 10px;
 }
@@ -23544,6 +23546,7 @@ h5 {
     box-shadow: none;
 
 }
+
 
 
 
