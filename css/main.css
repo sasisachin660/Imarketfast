@@ -162,6 +162,7 @@ html {
     left: 0;
     height: 100%;
     width: 0;
+	color:#fff;
     background: #7d2562;
     z-index: -1;
     transition: width 0.4s ease;
@@ -182,7 +183,11 @@ html {
     font-size: 24px;
     font-weight: 200;
 }
-
+@media (max-width:1099px){
+    .header_phone h6{
+        margin-left: -25px;
+    }
+}
 
 .toggle_menu:before,
 .toggle_menu span {
@@ -23522,4 +23527,5 @@ h5 {
     box-shadow: none;
 
 }
+
 
