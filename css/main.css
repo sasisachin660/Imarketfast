@@ -171,6 +171,9 @@ html {
 .header_phone span:hover::before {
     width: 100%;
 }
+.header_phone span:hover {
+    color: #fff;
+}
 .header_phone {
     margin-left: 10px;
 }
@@ -23519,3 +23522,4 @@ h5 {
     box-shadow: none;
 
 }
+
