@@ -122,7 +122,7 @@ html {
 }
 
 .ds h6 a:not(.btn) {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .sf-menu>li>a:after {
@@ -135,13 +135,51 @@ html {
 }
 
 .header_absolute .header_phone h6 span a i {
-    color: #a52477 !important;
+    color: #fff !important;
 }
 
 .ds .sf-menu>li>a:hover,
 .ds .sf-menu>li.active>a {
     color: #a52477;
 }
+.header_phone span {
+    position: relative;
+    color: #fff;
+    padding: 10px 17px;
+    border: 1px solid;
+    background: #1d57a1;
+    border-radius: 25px;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.header_phone span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #7d2562;
+    z-index: -1;
+    transition: width 0.4s ease;
+    border-radius: 25px;
+}
+
+.header_phone span:hover::before {
+    width: 100%;
+}
+.header_phone {
+    margin-left: 10px;
+}
+
+.header_phone h6 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
 
 .toggle_menu:before,
 .toggle_menu span {
@@ -19433,18 +19471,7 @@ a.btn {
     color: #6e6e6e;
 }
 
-.header_phone {
-    margin-left: 10px;
-}
 
-.header_phone h6 {
-    font-size: 24px;
-    font-weight: 200;
-}
-
-.header_phone span {
-    color: #a52477;
-}
 
 @media (min-width: 1600px) {
     .main-testimonials {
@@ -23490,4 +23517,5 @@ h5 {
 
 .checkbox-slider--b-flat input+span:before {
     box-shadow: none;
+
 }
